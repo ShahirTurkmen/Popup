@@ -1,0 +1,93 @@
+  /* CSS styles for the popup */
+  .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: 80%;
+      max-width: 900px;
+      max-height: 600px;
+      background-color: white;
+      z-index: 9999;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: auto;
+      box-shadow: .1em .1em .3em black;
+      border-radius: 10px;
+  }
+
+  #uploadButton {
+      margin-right: 10px;
+      padding: 8px 16px;
+      background-color: #6f638f;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin: 15em auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      padding: 1em 2em;
+      border-radius: 2em;
+  }
+
+  .popup-content {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .popup-buttons {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+  }
+
+  .popup-button {
+      margin-right: 10px;
+      padding: 8px 16px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+  }
+
+  .storage-area {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .storage-image {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+
+  .message {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #4caf50;
+  }
+
+  .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+  }
+
+  .popup-title {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+      margin-top: 0;
+
+  }
